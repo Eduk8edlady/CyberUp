@@ -1,0 +1,22 @@
+body{
+    background-color: unset;
+
+}
+
+
+h1{
+    font-family: cursive;
+    
+}
+
+
+
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    display:flex;
+    position: relative;
+  }
