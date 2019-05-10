@@ -1,0 +1,14 @@
+body{
+    background-color: blue;
+    font-family: cursive;
+    outline-color: white:
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    display:flex;
+    position: relative;
+    grid-auto-rows: 1fr;
+}
