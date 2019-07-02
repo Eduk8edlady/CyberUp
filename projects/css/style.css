@@ -1,22 +1,55 @@
 body{
-    background-color: blueviolet;
-
-}
-
-
-h1{
+    margin: 0;
+    background-color:plum;
     font-family: cursive;
-    
+    outline-color: white;
 }
 
 
+#header-img {
+    height: 50vh;
+    background: url(https://mindthepositive.com/wp-content/uploads/2018/05/Happiness-against-all-odds.png) center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+}
+
+#nav-bar {
+    list-style-type: none;
+    background: #673ab7;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  #nav-bar li {
+    display: inline-block;
+  }
+  
+  #nav-bar li:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  #nav-bar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    display: inline-block;
+  }
+  
 
 
-
-.container {
+.container{
     max-width: 960px;
     margin: 0 auto;
     background-color: aquamarine;
     display:flex;
     position: relative;
-  }
+    grid-auto-rows: 1fr;
+}
