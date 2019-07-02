@@ -1,0 +1,24 @@
+{
+  "name": "ShantellBarge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduk8edlady/CyberUp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduk8edlady/CyberUp/issues"
+  },
+  "homepage": "https://github.com/Eduk8edlady/CyberUp#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "parcel-bundler": "^1.12.3"
+  }
+}
