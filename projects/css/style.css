@@ -18,6 +18,17 @@ body{
     align-items: flex-end;
 }
 
+#header-img h1 {
+    margin: 12px 4px;
+    font-size: 36px;
+  }
+  
+  #header-img img {
+    height: 48px;
+    /*adjust according to your image*/
+    margin: 12px 0 12px 12px;
+  }
+
 #nav-bar {
     list-style-type: none;
     background: #673ab7;
