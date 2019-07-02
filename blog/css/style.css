@@ -87,7 +87,7 @@ body{
     bottom: 0;
     box-shadow: 0 0 8px #000;
     z-index: 1;
-    overflow: hidden;
+    overflow:overlay;
     transform: translateY(100%);
     transition: 0.5s;
     opacity: 0;
