@@ -91,6 +91,7 @@ body{
     transform: translateY(100%);
     transition: 0.5s;
     opacity: 0;
+    scroll-behavior: smooth;
   }
   
   .blurredBG:hover .parentBG {
