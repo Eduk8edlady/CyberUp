@@ -343,7 +343,7 @@ body{
 .flip-card,
 .flip-card-inner-front,
 .flip-card-inner-back {
-  width: 100%;
+  width: 55%;
   height: 20rem;
 }
 
