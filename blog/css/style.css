@@ -332,6 +332,7 @@ body{
           perspective: 1000;
   border: 0;
   background: transparent;
+  width: 55%;
 }
 
 .flip-card:hover .flip-card-inner,
@@ -354,6 +355,7 @@ body{
   position: relative;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+          width: 55%;
 }
 
 .flip-card-inner-front,
@@ -363,6 +365,7 @@ body{
   position: absolute;
   top: 0;
   left: 0;
+  
 }
 
 .flip-card-inner-front {
@@ -380,7 +383,7 @@ body{
 }
 
 .flip-card-inner-front span {
-  width: 100%;
+  width: 55%;
   text-align: center;
   background: rgba(254, 254, 254, 0.8);
   padding: 0.25rem 0;
