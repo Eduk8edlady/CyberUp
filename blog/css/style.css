@@ -382,6 +382,19 @@ body{
       -ms-flex-pack: center;
           justify-content: center;
 }
+.flip-card-inner-front b {
+  background: url(https://media.licdn.com/dms/image/C5603AQGsTZzxg9H9nw/profile-displayphoto-shrink_800_800/0?e=1567641600&v=beta&t=TY5fCiZUZ5jjt11GHS4U7OLpGlxeW2Gr5nqKb8ZaPUE) 0 0 no-repeat;
+  z-index: 2;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
 .flip-card-inner-front span {
   width: 55%;
